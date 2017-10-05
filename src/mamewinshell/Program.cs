@@ -16,6 +16,7 @@ namespace mamewinshell
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+            //WindowsShutdown.DoExitWin(WindowsShutdown.EWX_SHUTDOWN);
         }
     }
 }
