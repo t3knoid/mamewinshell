@@ -1,0 +1,8 @@
+
+*.exe
+*.pdb
+*.cache
+src/mamewinshell/obj/Debug/mamewinshell.csproj.FileListAbsolute.txt
+src/mamewinshell/obj/Debug/mamewinshell.Form1.resources
+src/mamewinshell/bin/Debug/mamewinshell.exe.config
+src/mamewinshell/obj/Debug/mamewinshell.Properties.Resources.resources
