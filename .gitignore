@@ -10,3 +10,8 @@ src/mamewinshell/bin/Release/mamewinshell.exe.config
 src/mamewinshell/obj/Release/mamewinshell.csproj.FileListAbsolute.txt
 src/mamewinshell/obj/Release/mamewinshell.Form1.resources
 src/mamewinshell/obj/Release/mamewinshell.Properties.Resources.resources
+/.vs/mamewinshell/v15/.suo
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
+/.vs
+/src/.vs/mamewinshell/v15
