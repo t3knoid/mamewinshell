@@ -6,3 +6,7 @@ src/mamewinshell/obj/Debug/mamewinshell.csproj.FileListAbsolute.txt
 src/mamewinshell/obj/Debug/mamewinshell.Form1.resources
 src/mamewinshell/bin/Debug/mamewinshell.exe.config
 src/mamewinshell/obj/Debug/mamewinshell.Properties.Resources.resources
+src/mamewinshell/bin/Release/mamewinshell.exe.config
+src/mamewinshell/obj/Release/mamewinshell.csproj.FileListAbsolute.txt
+src/mamewinshell/obj/Release/mamewinshell.Form1.resources
+src/mamewinshell/obj/Release/mamewinshell.Properties.Resources.resources
