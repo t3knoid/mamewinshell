@@ -40,6 +40,7 @@ namespace mamewinshell
         public void Save()
         {
             AppSettingsSection appSettings = config.AppSettings;
+
             if (appSettings.IsReadOnly() == false)
             {
                 appSettings.Settings.Remove("Shutdown");

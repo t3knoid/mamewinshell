@@ -1,4 +1,6 @@
-﻿namespace mamewinshell
+﻿using System.Windows.Forms;
+
+namespace mamewinshell
 {
     partial class Form1
     {
@@ -40,6 +42,10 @@
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.checkBoxShutdown = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
+            //
+            // Handler for application exit
+            //
+            //Application.ApplicationExit += new System.EventHandler(Application_ApplicationExit);
             // 
             // textBoxPathToMame
             // 
@@ -48,10 +54,9 @@
             this.textBoxPathToMame.Name = "textBoxPathToMame";
             this.textBoxPathToMame.Size = new System.Drawing.Size(619, 26);
             this.textBoxPathToMame.TabIndex = 0;
-            this.textBoxPathToMame.Text = config.pathtoMame;
-
             // 
             // labelPathToMame
+
             // 
             this.labelPathToMame.AutoSize = true;
             this.labelPathToMame.Location = new System.Drawing.Point(22, 114);
@@ -79,7 +84,6 @@
             this.textBoxMameParameters.Name = "textBoxMameParameters";
             this.textBoxMameParameters.Size = new System.Drawing.Size(619, 26);
             this.textBoxMameParameters.TabIndex = 3;
-            this.textBoxMameParameters.Text = config.mameParameters;
             // 
             // labelMameParameters
             // 
@@ -144,7 +148,6 @@
             // checkBoxShutdown
             // 
             this.checkBoxShutdown.AutoSize = true;
-            this.checkBoxShutdown.Checked = config.shutdown;
             this.checkBoxShutdown.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxShutdown.Location = new System.Drawing.Point(570, 263);
             this.checkBoxShutdown.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
