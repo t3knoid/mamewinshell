@@ -18,5 +18,6 @@ namespace mamewinshell
             Application.Run(new Form1());
             //WindowsShutdown.DoExitWin(WindowsShutdown.EWX_SHUTDOWN);
         }
+
     }
 }
