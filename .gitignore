@@ -10,3 +10,4 @@ src/mamewinshell/bin/Release/mamewinshell.exe.config
 src/mamewinshell/obj/Release/mamewinshell.csproj.FileListAbsolute.txt
 src/mamewinshell/obj/Release/mamewinshell.Form1.resources
 src/mamewinshell/obj/Release/mamewinshell.Properties.Resources.resources
+*.suo
